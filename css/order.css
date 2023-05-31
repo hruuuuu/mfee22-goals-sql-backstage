@@ -1,0 +1,82 @@
+:root {
+    --primary: #0d6efd;
+    --table-padding: 8px;
+}
+
+.order-th {
+    padding: var(--table-padding) 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.order-th .btn {
+    margin-left: 4px;
+}
+
+.order-tr {
+    padding: var(--table-padding);
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 1fr 1.1fr 0.8fr 1fr 1fr 0.8fr 1.1fr 0.8fr 1fr 2fr 1.8fr;
+}
+
+.order-td {
+    padding: var(--table-padding) 0;
+}
+
+.order-tr-empty {
+    grid-template-columns: 14.6fr;
+}
+
+.order-tr-empty .order-td {
+    text-align: center;
+}
+
+.order-dropdown {
+    height: max-content;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.detail-aside {
+    width: 100%;
+    height: max-content;
+}
+
+.detail-aside-th {
+    min-width: 100px;
+}
+
+.detail-aside-th, .detail-aside-td {
+    padding: var(--table-padding) 0;
+}
+
+.detail-tr {
+    padding: var(--table-padding);
+    display: grid;
+}
+
+.detail-td {
+    padding: var(--table-padding) 0;
+}
+
+.detail-tr-product {
+    grid-template-columns: 2fr 1fr 3fr 1fr 1fr;
+}
+
+.detail-tr-empty {
+    grid-template-columns: 8fr;
+}
+
+.detail-tr-empty .detail-td {
+    text-align: center;
+}
+
+.detail-tr-class {
+    grid-template-columns: 2fr 1fr 5fr;
+}
+
+.detail-img {
+    width: 100%;
+}

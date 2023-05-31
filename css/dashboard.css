@@ -1,0 +1,41 @@
+  body {
+            min-height: 200vh;
+        }
+
+        :root {
+            --left-width: 240px;
+        }
+
+        .dashboard-logo {
+            width: var(--left-width);
+        }
+
+        /* .header-input {
+            border: 1px solid #666;
+            background: #444;
+        } */
+
+        .dashboard-aside {
+            left: 0;
+            top: 48px;
+            bottom: 0;
+            width: var(--left-width);
+        }
+
+        .main-content {
+            margin: 48px 0 0 var(--left-width);
+        }
+
+        .dashboard-menu a {
+            color: #666;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        .dashboard-menu a:hover {
+            /* background: #aaa; */
+            color: #000;
+        }
+       
+        
